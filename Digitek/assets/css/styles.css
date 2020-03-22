@@ -65,3 +65,23 @@ nav {
   width: inherit;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* Om oss */
+div.om-oss div.text {
+  width: 400px;
+  margin: 50px auto;
+}
+div.om-oss div.text * {
+  text-align: center;
+}
+div.om-oss div.text a {
+  margin-top: 1em;
+  display: inline-block;
+  background-color: deepskyblue;
+  color: white;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
